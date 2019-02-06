@@ -1,0 +1,23 @@
+/* universal styles */
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  background-color: White;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* header sttles */
