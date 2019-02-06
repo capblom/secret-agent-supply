@@ -21,3 +21,150 @@ h1 {
 }
 
 /* header sttles */
+
+.header {
+  background-color: Black;
+  color: White;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header span {
+  padding: 0.66rem 0;
+}
+
+/* banner styles */
+
+.banner {
+  background-color: FireBrick;
+  background-image: url(./../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  color: White;
+}
+
+#banner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-box {
+  background-color: Black;
+  margin-top: 9rem;
+  width: 20rem;
+}
+
+.banner h4 {
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.banner h1 {
+  padding: 0.25rem 0 2rem 3rem;
+}
+
+/* navbar styles */
+
+.navbar {
+  background-color: FireBrick;
+  color: White;
+}
+
+#navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar span {
+  padding: 0.75rem 0;
+}
+
+/* products styling */
+
+.products {
+  color: white;
+}
+
+.products img {
+  height: 9rem;
+  width: 9rem;
+  padding: 2rem 0;
+}
+
+.products span {
+  background-color: Black;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+#product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+  text-align: center;
+}
+
+/* contact section styling */
+
+#contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+#contact-header {
+  background-color: Black;
+  color: White;
+  padding: 1rem 2rem;
+  margin-bottom: 0.25rem;
+}
+
+/* footer section styling */
+
+.footer {
+  background-color: Black;
+  color: White;
+}
+
+#footer-container {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 600px;
+  }
+}
